@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Grids: Dustin Nguyen</title>
+		
+		<style>
+			.wrapper{
+				display:grid;
+				grid-template-columns: 70% 30%;
+				
+				/*
+				grid-column-gap:1em;
+				grid-row-gap:1em;
+				*/
+				grid-gap:1em;
+				
+				color:white;
+			}
+		
+			.wrapper > div{
+				background: red;
+				padding:1em;
+			}
+			
+			.wrapper > div:nth-child(odd){
+				background: blue;
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="wrapper">
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis, tellus elementum pretium commodo, arcu erat porta nisl, sed mattis nibh neque et enim. Maecenas sollicitudin vitae dui scelerisque interdum. Mauris at ante est. Nam non dui in felis hendrerit facilisis at et augue. Nam placerat faucibus ante non tristique. Cras nulla augue, vestibulum eget turpis vel, molestie feugiat sapien. Donec gravida aliquet sem sit amet venenatis. Nam aliquet dignissim massa ullamcorper mollis. Nullam vulputate purus sit amet arcu consectetur.
+			</div>
+			
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget faucibus lectus. Mauris quis velit suscipit dolor laoreet porttitor sit amet ut justo. Nunc pellentesque, augue vitae sodales pharetra, eros.
+			</div>
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis, tellus elementum pretium commodo, arcu erat porta nisl, sed mattis nibh neque et enim. Maecenas sollicitudin vitae dui scelerisque interdum. Mauris at ante est. Nam non dui in felis hendrerit facilisis at et augue. Nam placerat faucibus ante non tristique. Cras nulla augue, vestibulum eget turpis vel, molestie feugiat sapien. Donec gravida aliquet sem sit amet venenatis. Nam aliquet dignissim massa ullamcorper mollis. Nullam vulputate purus sit amet arcu consectetur.
+			</div>
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget faucibus lectus. Mauris quis velit suscipit dolor laoreet porttitor sit amet ut justo. Nunc pellentesque, augue vitae sodales pharetra, eros.
+			</div>
+			
+			
+		</div>
+	
+	</body>
+	
+</html>
